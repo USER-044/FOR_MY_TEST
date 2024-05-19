@@ -1,5 +1,6 @@
 import os 
-BANNER ='''
+from time import sleep
+BANNER ='''\033[1;32m
    _____ ______ _______     _    _ _____  
   / ____|  ____|__   __|   | |  | |  __ \ 
  | (___ | |__     | |______| |  | | |__) |
@@ -17,11 +18,15 @@ ADMIN_LIST ='''
 \033[1;39m ┃ \x1b[1;95m❣︎[𖣘]☔︎\x1b[1;96m𝙏𝙊𝙊𝙇𝙎 𝙉𝘼𝙈𝙀\033[1;34m : [★]  TERMUX-FULL-SETUP\033[1;39m     ┃
  \033[1;39m┗━━━━━━━━━━━━━━━━━━━\033[1;31m𝙁𝙄𝙍𝙀\033[1;39m━━━━━━━━━━━━━━━━━━━━━━━━┛
 '''
+url ="https://www.github.com/cybercop-404"
 os.system('clear')
 print(BANNER,ADMIN_LIST)
-print(' DO YOU WANT TO SETUP PRESS ENTER ')
-print(' EXIT PROGRAM TO CTRL+Z ')
-ok = input(' DO YOU WANT TO SETUP > ')
+print('\033[1;30m DO YOU WANT TO SETUP PRESS ENTER ')
+print('\033[0;31m EXIT PROGRAM TO CTRL+Z ')
+ok = input('\033[1;32m DO YOU WANT TO SETUP > ')
+os.system('clear')
+print('PLEASE FOLLOW MY GITHUB......')
+sleep(7)
 os.system('pip install bs4')
 os.system('pkg install python')
 os.system('pip install random')
