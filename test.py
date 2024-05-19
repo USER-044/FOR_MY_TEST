@@ -1,12 +1,13 @@
 import os 
 BANNER ='''
-
-   _____ ______ _______     _    _ _____  
-  / ____|  ____|__   __|   | |  | |  __ \ 
- | (___ | |__     | |______| |  | | |__) |
-  \___ \|  __|    | |______| |  | |  ___/ 
-  ____) | |____   | |      | |__| | |     
- |_____/|______|  |_|       \____/|_| Verson- 0.1
+     $$$$$$\  $$$$$$$$\ $$$$$$$$\      $$\   $$\ $$$$$$$\  
+    $$  __$$\ $$  _____|\__$$  __|     $$ |  $$ |$$  __$$\ 
+    $$ /  \__|$$ |         $$ |        $$ |  $$ |$$ |  $$ |
+    \$$$$$$\  $$$$$\       $$ |$$$$$$\ $$ |  $$ |$$$$$$$  |
+     \____$$\ $$  __|      $$ |\______|$$ |  $$ |$$  ____/ 
+    $$\   $$ |$$ |         $$ |        $$ |  $$ |$$ |      
+    \$$$$$$  |$$$$$$$$\    $$ |        \$$$$$$  |$$ |      
+     \______/ \________|   \__|         \______/ \__|Verson- 0.1
 '''
 ADMIN_LIST ='''
 \033[1;39m ┏━━━━━━━━━━━━━━━━━━━\033[38;5;46m𝗞𝗜𝗡𝗚\033[1;39m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
@@ -20,8 +21,9 @@ ADMIN_LIST ='''
 '''
 os.system('clear')
 print(BANNER,ADMIN_LIST)
-print('  DO YOU WANT TO SETUP PRESS ENTER / EXIT PROGRAM TO CTRL+Z ')
-ok = input('  DO YOU WANT TO SETUP > ')
+print(' DO YOU WANT TO SETUP PRESS ENTER ')
+print(' EXIT PROGRAM TO CTRL+Z ')
+ok = input(' DO YOU WANT TO SETUP > ')
 os.system('pip install bs4')
 os.system('pkg install python')
 os.system('pip install random')
